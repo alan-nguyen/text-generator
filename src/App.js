@@ -12,6 +12,10 @@ class App extends Component {
     };
   }
 
+  componentWillMount() {
+    this.getSampleText();
+  }
+
   render() {
     return (
       <div className="App">
